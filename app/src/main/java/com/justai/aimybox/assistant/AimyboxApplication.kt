@@ -13,7 +13,7 @@ import java.util.*
 class AimyboxApplication : Application(), AimyboxProvider {
 
     companion object {
-        private const val AIMYBOX_API_KEY = "Ldf0j7WZi3KwNah2aNeXVIACz0lb9qMH"
+        private const val AIMYBOX_API_KEY = "WOLbXpTplT8NaVyVw7uyYEHBxYHEJmoG"
     }
 
     override val aimybox by lazy { createAimybox(this) }
